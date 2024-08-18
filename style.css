@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+
+    --Stone_100: hsl(30, 54%, 90%);
+    --Stone_150: hsl(30, 18%, 87%);
+    --Stone_600: hsl(30, 10%, 34%);
+    --Stone_900: hsl(24, 5%, 18%);
+    
+    --Brown_800: hsl(14, 45%, 36%);
+    
+    --Rose_800: hsl(332, 51%, 32%);
+    --Rose_50: hsl(330, 100%, 98%);
+
+    --young_serif: "Young Serif", serif;
+    --outfit: "Outfit", sans-serif;
+
+
+}
+
+
+body{
+    background-color: var(--Stone_100);
+    font-family: var(--outfit);
+    
+}
+
+body p, .table__collums {
+    font-size: 16px;
+    color: var(--Stone_600);
+    padding: 0px 0px 10px;
+    
+}
+
+.container{
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.container__card{
+    background-color: white;
+    max-width: 33vw;
+    padding:40px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.055);
+
+}
+
+.container__card img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.container__card h1 {
+    padding: 15px 0px;
+    font-family: var(--young_serif);
+    font-weight: 400;
+
+}
+
+
+.card__preparation{
+    background-color: var(--Rose_50);
+    padding: 20px;
+    margin: 20px 0px 15px 0px;
+    border-radius: 10px;
+
+}
+
+.card__preparation h3{
+    color: var(--Rose_800);
+    padding-bottom: 5px;
+
+}
+
+.card__list{
+    color: black;
+    padding: 0px 22px;
+    
+}
+
+.list__item{
+    padding: 5px;
+    color: var(--Stone_600);
+
+}
+
+.list__item::marker{
+    color:var(--Brown_800);
+    font-weight: bold;
+
+}
+
+.list--bolder{
+    color: var(--Stone_900);
+    font-weight: 600;
+
+}
+
+.line{
+    margin: 20px 0px;
+    
+}
+
+.card__subtitle{
+    font-family: var(--young_serif);
+    font-weight: 400;
+    color: var(--Brown_800);
+    padding: 5px 0px 10px;
+
+}
+
+.card__table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.card__table td{
+    border-bottom: 1px solid lightgray;
+    padding: 15px 20px;
+    
+}
+
+}
+
+
+
+
+
+
